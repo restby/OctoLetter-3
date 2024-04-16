@@ -71,7 +71,40 @@
       supported-color-schemes: light dark;
     }
 
-    @media (prefers-color-scheme: dark) {}
+    @media (prefers-color-scheme: dark) {
+      .bg-dark {
+        background-color: #727272 !important;
+      }
+
+      .header__btn,
+      .header__btn a {
+        background-color: #727272 !important;
+        color: #ffffff !important;
+        border-color: #ffffff !important;
+      }
+
+      .main-block__wrap p,
+      .main-block__wrap span {
+        color: #ffffff !important;
+      }
+
+      .main-block__wrap:last-child {
+        border-bottom-color: #1890ff !important;
+      }
+
+      .social__wrap p {
+        color: #ffffff !important;
+      }
+
+      .social__item td {
+        background-color: #1890ff !important;
+      }
+
+      .footer__wrap p,
+      .footer__wrap span {
+        color: #ffffff !important;
+      }
+    }
   </style>
 
   <!--[if (gte mso 9)|(IE)]>
